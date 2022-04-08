@@ -18,7 +18,7 @@ function remainder(num1 ,num2){
 }
 num1=prompt("Enter first number " );
 num2=prompt("Enter Second number ");
-operation=prompt("enter the operation u need to perform(+,*,-,/)");
+operation=prompt("enter the operation u need to perform(+,*,-,/,%)");
 var result=0;
 if(operation==="+"){
     result=calculator(num1,num2,add);
